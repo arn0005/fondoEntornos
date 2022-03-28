@@ -15,6 +15,10 @@ public class main {
      */
     public static void main(String[] args) {
         System.out.println("Hola mundo");
+        Cliente p = new Cliente("Elena");
+        p.atender();
+        p.atender();
+
     }
-    
+
 }
