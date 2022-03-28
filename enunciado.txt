@@ -1,0 +1,8 @@
+implementar clase fruteria
+implementar una clase cliente con los metodos atender cliente:
+	abandonar cola
+	adeltar 1 puesto y atrasar 1 puesto
+	dejar que pase el siguiente cliente en vez del actual por cortesía
+	metodo para mostrar los clientes que no han sido atendidos
+	metodo para mostrar los clientes ya atendidos
+**las personas mayores tienen preferncia
