@@ -15,10 +15,21 @@ public class main {
      */
     public static void main(String[] args) {
         System.out.println("Hola mundo");
-        Cliente p = new Cliente("Elena");
-        p.atender();
-        p.atender();
+        ListaClientes lista = new ListaClientes(10);
 
+        Cliente p1 = new Cliente("Elena1");
+        Cliente p2 = new Cliente("Elena2");
+        Cliente p3 = new Cliente("Elena3");
+        Cliente p4 = new Cliente("Elena4");
+        Cliente p5 = new Cliente("Elena5");
+
+        System.out.println(p1);
+        p1.atender();
+        p1.atender();
+        lista.aniadirCliente(p4);
+        lista.aniadirCliente(p2);
+
+        System.out.println();
     }
 
 }

@@ -2,12 +2,47 @@ package proyectoFondo;
 
 public class Cliente {
 
-    String nombre;
-    boolean atendido;
+    private String nombre;
+    private boolean atendido;
+    private int numLista;
+    private String var = "";
 
     public Cliente(String nombre) {
         this.nombre = nombre;
         this.atendido = false;
+        this.numLista = 0;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public boolean isAtendido() {
+        return atendido;
+    }
+
+    public void setAtendido(boolean atendido) {
+        this.atendido = atendido;
+    }
+
+    public int getNumLista() {
+        return numLista;
+    }
+
+    public void setNumLista(int numLista) {
+        this.numLista = numLista;
+    }
+
+    public String getVar() {
+        return var;
+    }
+
+    public void setVar(String var) {
+        this.var = var;
     }
 
     public void atender() {
@@ -28,9 +63,13 @@ public class Cliente {
         }
     }
 
+    public void adelantarPuesto() {
+
+    }
+
     @Override
     public String toString() {
-        return "Cliente{" + "nombre=" + nombre;
+        return "Cliente: " + this.nombre;
     }
 
 }
