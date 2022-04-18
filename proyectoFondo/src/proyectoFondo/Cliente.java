@@ -48,9 +48,10 @@ public class Cliente {
     public void atender() {
         if (!this.atendido) {
             this.atendido = true;
-            System.out.println("El cliente esta siendo atendido");
+            System.out.println("El cliente " + this.nombre
+                    + " esta siendo atendido");
         } else {
-            System.out.println("El cliente ya esta atendido");
+            System.out.println("El cliente " + this.nombre + " ya ha sido atendido");
         }
     }
 

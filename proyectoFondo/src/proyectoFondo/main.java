@@ -26,10 +26,8 @@ public class main {
         System.out.println(p1);
         p1.atender();
         p1.atender();
-        lista.aniadirCliente(p4);
-        lista.aniadirCliente(p2);
+        p2.atender();
 
-        System.out.println();
     }
 
 }
