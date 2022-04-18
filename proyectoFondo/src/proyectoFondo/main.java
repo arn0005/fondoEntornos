@@ -27,6 +27,7 @@ public class main {
         p1.atender();
         p1.atender();
         p2.atender();
+        
 
     }
 

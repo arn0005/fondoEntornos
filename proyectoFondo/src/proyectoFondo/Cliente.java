@@ -64,25 +64,6 @@ public class Cliente {
         }
     }
 
-  public void adelantarPuesto(Cliente adelantado) {
-    for (int i = 0; i < listaClientes.length; i++) {
-        if (adelantado.getNumLista() > listaClientes[i].getNumLista()) {
-            listaClientes[i].setNumLista(-1);
-            i = listaClientes.length;
-            adelantado.setNumLista(+1);
-        }
-    }
-}
-  public void atrasarPuesto(Cliente atrasado) {
-    for (int i = 0; i < listaClientes.length; i++) {
-        if (atrasado.getNumLista() > listaClientes[i].getNumLista()) {
-            listaClientes[i].setNumLista(+1);
-            i = listaClientes.length;
-            atrasado.setNumLista(-1);
-        }
-    }
-}
-
     @Override
     public String toString() {
         return "Cliente: " + this.nombre;
