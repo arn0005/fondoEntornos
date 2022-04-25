@@ -64,10 +64,6 @@ public class Cliente {
         }
     }
 
-    public void adelantarPuesto() {
-
-    }
-
     @Override
     public String toString() {
         return "Cliente: " + this.nombre;
