@@ -40,6 +40,6 @@ public class ClienteTest {
         
         assertEquals(cliente.isAtendido(), true);
     }
-    
+
     
 }
